@@ -85,7 +85,7 @@ def forecast():
         weather = future.result()
     result_forecast = weathercall(weather)
     
-    if report=='y':
+    if report=='y' and result_forecast!=None :
         with pd.ExcelWriter('Forecast_Results.xlsx') as writer:
             result_forecast.to_excel(writer,sheet_name="Weather_Report")
     
