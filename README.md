@@ -10,7 +10,7 @@ https://openweathermap.org/forecast5
 This API returns the forecasted weather data based on the parameters like "CITY_NAME","LOCATION_ID",etc.
 
 # Installation
-## IN Virtual Environment(Recomended):
+## IN Virtual Environment(Recommended):
 >conda info -e # To see list of environment
 
 >conda create -n yourenvname python=x.x 
