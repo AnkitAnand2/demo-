@@ -6,7 +6,7 @@ setup(
     version='0.1',
     install_requires=required,
     description='Package for Weather Forecasting with API Call',
-    url='git@github.com:AnkitAnand2/weatherpackage2.git',
+    url='git@bitbucket.org:AnkitAnand2/weather_api_call.git',
     author='Ankit_Anand',
     author_email='ankitanand5024@gmail.com',
     license='unlicense',

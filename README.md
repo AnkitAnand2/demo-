@@ -19,7 +19,7 @@ This API returns the forecasted weather data based on the parameters like "CITY_
 
 >conda install git
 
->Use the package manager> [pip] install git+https://github.com/AnkitAnand2/weatherpackage2  #to install weather_py
+>Use the package manager> [pip] install git+https://AnkitAnand2@bitbucket.org/AnkitAnand2/weather_api_call  #to install weather_py
 
 >conda deactivate# To deactivate virtual environment
 
@@ -28,7 +28,7 @@ This API returns the forecasted weather data based on the parameters like "CITY_
 
 ## Normal installation:
 
-Use the package manager [pip] install git+https://github.com/AnkitAnand2/weatherpackage2 to install weather_py
+Use the package manager [pip] install git+https://AnkitAnand2@bitbucket.org/AnkitAnand2/weather_api_call to install weather_py
 
 ## Installation using .rar file:
 
