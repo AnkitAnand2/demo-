@@ -56,8 +56,10 @@ def weathercall(weather):
         df_t=df.transpose() 
         df_t.columns=col_name
         df_t.fillna('Not Available',inplace=True)
-        return df_t
-    
+    else:
+        ls={}
+        df_t=pd.DataFrame(ls)
+    return df_t
     
 def forecast():
     """
@@ -84,12 +86,10 @@ def forecast():
         future = executor.submit(api_call, city)
         weather = future.result()
     result_forecast = weathercall(weather)
-    
     if report=='y' and result_forecast.empty==False :
         with pd.ExcelWriter('Forecast_Results.xlsx') as writer:
             result_forecast.to_excel(writer,sheet_name="Weather_Report")
     
     if result_forecast.empty==False:
         print(result_forecast)
-
 
